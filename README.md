@@ -6,7 +6,7 @@ Property used which is not compatible :- CSS Grid .
 To make grid work on other browser , prefix is required . Version of IE and Edge installed in my pc was incompatible . 
 
 Substitutes of Grid  :- 
-1) column classes of Bootstrap in table   
+1)extracting the css code from Bootstrap CSS to get the table tr properties , can be done without Bootstrap as well .   
 2) inline block divs with max height = 100% . 
 
 
