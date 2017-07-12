@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+
+</style>
+
+  <link rel = 'stylesheet' href='./css/style.css'>	
+    <link rel='stylesheet prefetch' href='./css/jquery-ui.min.css'> 
+  <link rel = 'stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script type = 'text/javascript' src = './js/sample.js'></script>
+    <script type = 'text/javascript' src = './js/validate.js'></script>
+</head>
+
+<body>
+
+<ul class='header'>
+
+  <li class="rf"><a class="active" href="#GoTo"><strong>Go To</strong></a></li>
+</ul >
+
+ <div class = 'pagination'>
+ 	<h4>  OBJECTIVES  <strong> > CREATE OBJECTIVE </strong> </h4>
+
+ </div>
+ <div class = container>
+ <div class = 'item-left'></div>
+ <div class = 'item-center' >
+ <form class="registration" id="registration" onSubmit = 'return validate();' method="get" action="">
+<div class="wrapper">
+
+    <div class="tab wow slideInUp" data-wow-delay ='0s' data-wow-duration="0.3s">
+      <input class = 'clps' id="tab-one" type="checkbox" name="tabs">
+      <label for="tab-one">DEFINE OBJECTIVE</label>
+      <div class="tab-content">
+      	<div class = 'format'>
+      	<div class='underline'>
+      	 <div><input placeholder = "Enter Title" type="text" id = 'title' name="title"></div>
+      	 <div class = 'error'></div>
+      	 </div>
+      	 <div class = 'tarea'>
+      	 <h4> Description </h4>
+        <textarea cols ='100' rows = '5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</textarea>
+        </div>
+        <h4>TimeLine</h4>
+        
+        <div class = 'date-time'>
+        <input type = 'text' id = 'datepicker' name = 'datepicker' value="June 2017">
+        
+        <input type = 'text' id = 'datepicker1' name = 'datepicker1' value='June 2017'>
+        </div>
+         <div class='dateInput'></div>
+        <h4 >Owner</h4>
+      <div class = 'DropDown1'> 
+  	<!-- <button class="dropbtn">Dropdown</button> -->
+  	 <select >
+    <option>Individual</option>
+    <option>Multiple</option>
+    <option>Shared</option>
+  </select>
+  </div>
+		
+		<div  class='underline1'>
+		<div ><img src='test.png' height='50' width='50' /></div><input id="tags" name='user' type = 'text' placeholder="Add Name" >
+		</div>
+		<div class = 'userInput'></div>
+		<div class='addPeople'>
+		<button class = 'dis' type='click' disabled>+ ADD PEOPLE </button>
+		</div>
+        <div class = 'lastClass'>
+        <h4> Alignment </h4>
+        <select id = 'behavior'>
+    <option >Functional Skills</option>
+    <option>BSC Category</option>
+    </select>
+    </div>
+    
+
+  </select>	
+  	<div class='radioBtns'></div>
+      </div>
+    </div>
+
+
+ </div>
+    <div class="tab wow slideInUp" data-wow-delay ='0s' data-wow-duration="0.4s">
+      <input class = 'clps' id="tab-two" type="checkbox" name="tabs">
+      <label for="tab-two">KEY RESULT AREAS</label>
+      <div class="tab-content" id = 'two'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+        <input type = 'text' placeholder='age'>
+        <input type = 'text' placeholder='Country'>
+      </div>
+    </div>
+    <div class="tab wow slideInUp" data-wow-delay ='0s' data-wow-duration="0.5s"">
+      <input class = 'clps' id="tab-three" type="checkbox" name="tabs">
+      <label for="tab-three">WEIGHTAGE & PRIVACY</label>
+      <div class="tab-content" id = 'three'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+      <input type = 'text' placeholder='planet'>
+        <input type = 'text' placeholder='Galaxy'>
+
+      </div>
+   		
+  </div>
+  <div class ="wow slideInUp" data-wow-delay ='0s' data-wow-duration="0.6s">
+  <button class='BtnA'>CLEAR FORM</button><button class='BtnB' type='submit'>SUBMIT FORM</button>
+  </div>
+ </div>
+ </form>
+</div>
+ <div class = "item-right wow fadeInUp" data-wow-delay ='0s' data-wow-duration="0.6s">
+  	<textarea  rows="20"  >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.
+</textarea>
+<button >Save Progress </button>
+<br>
+  </div>
+</div>
+
+</body>
+
+</html>
